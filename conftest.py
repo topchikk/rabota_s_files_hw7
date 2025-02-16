@@ -23,7 +23,7 @@ def create_zip_archive():
 
     yield
 
-    if os.path.exists("resources/archived_file.zip"):
-        if os.path.isfile("resources/archived_file.zip"):
-            os.remove("resources/archived_file.zip")
+    if os.path.exists("archive_folder/archived_file.zip"):
+        if os.path.isfile("archive_folder/archived_file.zip"):
+            os.remove("archive_folder/archived_file.zip")
 
